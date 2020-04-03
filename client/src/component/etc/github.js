@@ -39,11 +39,11 @@ export default function Github() {
       <CssBaseline />
       <div className={classes.paper}>
         <Typography component="h1">
-           https://github.com/dlsgh120/dlsgh120-gmail.com
+        https://github.com/dlsgh120/choi-mern
         </Typography>
 
         <Typography component="h1" style={{'marginTop':'30px'}}>   
-        <Button variant="contained" color="primary" href="https://github.com/dlsgh120/dlsgh120-gmail.com" startIcon={<GitHubIcon />}>
+        <Button variant="contained" color="primary" href="https://github.com/dlsgh120/choi-mern" startIcon={<GitHubIcon />}>
         go to github
       </Button>
         </Typography>

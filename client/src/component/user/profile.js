@@ -5,7 +5,6 @@ import {connect} from 'react-redux';
 import Typography from '@material-ui/core/Typography';
 //  {loginCheck?<Avatar alt="" src={process.env.PUBLIC_URL+user.file} className={classes.large} />:""} 
 import CssBaseline from '@material-ui/core/CssBaseline';
-import Link from '@material-ui/core/Link';
 import CloudUploadIcon from '@material-ui/icons/CloudUpload';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
@@ -100,13 +99,6 @@ const Profile = (props) => {
           >
             Update
           </Button>
-          <Grid container justify="flex-end">
-            <Grid item>
-              <Link href="/login" variant="body2">
-                Already have an account? Log-in
-              </Link>
-            </Grid>
-          </Grid>
         </form>
       </div>
     </Container>
